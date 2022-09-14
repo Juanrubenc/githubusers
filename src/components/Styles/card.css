@@ -1,0 +1,74 @@
+.user-info__card{
+    display: flex;
+    flex-direction: column;
+    background-color: #FEFEFE;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.339));
+}
+
+.user-container{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    width: 100%;
+}
+
+.user-avatar{
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-username {
+    color: #0079FF;
+}
+
+.user-joined{
+    color: #697C9A;
+}
+
+.user-username::before {
+    content: "@";
+}
+
+.bio{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000;
+    padding: 5px;
+    color:#4B6A9B;
+}
+
+
+/* stats-container */
+
+.stats-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+/* user-Extra */
+
+.user-extra{
+    margin-top: 20px;
+    color: #4B6A9B;
+}
+
+.user-info__card-dark{
+    background-color: #1E1E1E;
+    color: #fff ;
+}
