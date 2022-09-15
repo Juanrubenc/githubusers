@@ -51,7 +51,10 @@ function App() {
         <h1 className={`tittle ${darkMode ? 'tittle-dark' : ''}`}>
           devfinder
         </h1>
-        <h3 className={`darklight ${darkMode ? 'color-dark': ''}`} onClick={darkModeHandler}>{darkMode ? "Light" : "Dark"}</h3>
+        <div>
+        <i className={darkMode ? "fa-regular fa-sun color-dark" : "fa-regular fa-moon" }></i>
+        <span className={`darklight ${darkMode ? 'color-dark': ''}`} onClick={darkModeHandler}>{darkMode ? "Light" : "Dark"}</span> 
+        </div>
       </div>
       <form onSubmit={searchHandler} className={`search-form ${darkMode ? 'bg-dark': ''}`}>
         <i className="fa-solid fa-magnifying-glass"></i>
